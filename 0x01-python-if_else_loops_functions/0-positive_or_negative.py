@@ -8,4 +8,4 @@ elif number == 0:
 elif number < 0:
     print(f"{number:d} is negative")
 else:
-    print("Nothing") 
+    print("nothing")
