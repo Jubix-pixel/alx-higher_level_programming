@@ -2,4 +2,4 @@
 def uppercase(str):
     if (ord(str) >= 65 and ord(str) <= 90):
         print("{:s}.format(str)")
-            return(str)
+        return(str)
