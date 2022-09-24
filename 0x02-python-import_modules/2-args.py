@@ -4,8 +4,12 @@ if __name__ == "__main__":
     n = len(sys.argv) - 1
     if n == 0:
         print("{} argument.".format(n))
+    elif n == 1:
+        print("{} argument:".format(n))
     else:
-        n = 0
-        for i in n:
-            print(i)
-        n +=  1
+        print("{} arguments:".format(n))
+    if n >= 1:
+        i = 0
+        for i in argv:
+            print("{}: {}".format(n, i))
+        i = i + 1
