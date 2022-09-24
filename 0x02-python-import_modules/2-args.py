@@ -9,7 +9,7 @@ if __name__ == "__main__":
     else:
         print("{} arguments:".format(n))
     if n >= 1:
-        i = 0
-        for i in argv:
+        n = 0
+        for i in sys.argv:
             print("{}: {}".format(n, i))
-        i = i + 1
+        n = n + 1
