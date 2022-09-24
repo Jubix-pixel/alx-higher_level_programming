@@ -5,14 +5,15 @@ if __name__ == "__main__":
     if n != 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
-    if n[1] != "+" and n[1] != "-" and n[1] != "*" and n[1] != "/":
+    f_op =  sys.argv[1]
+    if f_op != "+" and f_op != "-" and f_op != "*" and f_op != "/":
         print("Unknown operator. Available operators: +, -, * and /")
         sys.exit(1)
-    n[0] = int(a)
-    n[2] = int(b)
-    from calculator_1.py import add, sub, mul, div
+    sys.argv[0] = int(a)
+    sys.argv[2] = int(b)
+    from calculator_1 import add, sub, mul, div
     if n == 3:
-        print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
-        print("{:d} - {:d} = {:d}".format(a, b, sub(a, b)))
-        print("{:d} * {:d} = {:d}".format(a, b, mul(a, b)))
-        print("{:d} / {:d} = {:d}".format(a, b, div(a, b)))
+        print("{} + {} = {}".format(a, b, add(a, b)))
+        print("{} - {} = {}".format(a, b, sub(a, b)))
+        print("{} * {} = {}".format(a, b, mul(a, b)))
+        print("{} / {} = {}".format(a, b, div(a, b)))
