@@ -8,4 +8,4 @@ if __name__ == "__main__":
         n = 0
         for i in n:
             print(i)
-            n +=  1
+        n +=  1
