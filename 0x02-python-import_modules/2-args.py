@@ -11,5 +11,6 @@ if __name__ == "__main__":
     if n >= 1:
         n = 0
         for i in sys.argv:
-            print("{}: {}".format(n, i))
+            if n != 0:
+                print("{}: {}".format(n, i))
         n = n + 1
