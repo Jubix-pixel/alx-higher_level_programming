@@ -10,7 +10,7 @@ if __name__ == "__main__":
         print("{} arguments:".format(n))
     if n >= 1:
         n = 0
-        for i in sys.argv:
+        for arg in sys.argv:
             if n != 0:
-                print("{}: {}".format(n, i))
+                print("{}: {}".format(n, arg))
         n = n + 1
