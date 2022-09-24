@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     import variable_load_5
-    variable_load_5.a
+    a = variable_load_5.a
     print(a)
