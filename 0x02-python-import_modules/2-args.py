@@ -2,6 +2,7 @@
 if __name__ == "__main__":
     import sys
     n = len(sys.argv) - 1
+    
     if n == 0:
         print("{} argument.".format(n))
     elif n == 1:
@@ -13,4 +14,4 @@ if __name__ == "__main__":
         for arg in sys.argv:
             if n != 0:
                 print("{}: {}".format(n, arg))
-        n = n + 1
+                n += 1
