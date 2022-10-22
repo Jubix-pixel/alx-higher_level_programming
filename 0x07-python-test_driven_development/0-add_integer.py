@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 0-add_integer.py
-# Naheemah Bello
+# Efenedo Jubilee
 """Defines an integer addition function."""
 
 
