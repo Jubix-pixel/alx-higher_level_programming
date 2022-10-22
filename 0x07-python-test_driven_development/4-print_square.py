@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 4-print_square.py
-# Naheemah Bello
+# Efenedo Jubilee
 """Defines a square-printing function."""
 
 
